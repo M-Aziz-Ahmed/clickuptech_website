@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiArrowRight  } from "react-icons/fi";
@@ -16,9 +17,11 @@ const ContactUs = () => {
                 <h1 className="text-4xl text-primaryColor text-center sm:text-4xl font-bold title-font mb-4 font-[Proxima]">
                   Contact Us
                 </h1>
-                <img
+                <Image
                   src="https://pagedone.io/asset/uploads/1696488602.png"
                   alt="ContactUs tailwind section"
+                  width={100}
+                  height={100}
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700"
                 />
 
