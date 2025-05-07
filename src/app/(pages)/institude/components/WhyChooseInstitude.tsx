@@ -11,7 +11,7 @@ export default function WhyChooseInstitude() {
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-white">WHY CHOOSE US</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-secondaryColor sm:text-3xl font-[Proxima]">How will you get guaranteed Job?</p>
-                <p className="mt-6 text-lg leading-8 text-white">We've built an API that al lows you to scale your podcast
+                <p className="mt-6 text-lg leading-8 text-white">We&apos;ve built an API that al lows you to scale your podcast
                   production workflow.
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
