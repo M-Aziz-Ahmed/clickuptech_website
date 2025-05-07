@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --background: #F4F0FC; */
+  --background: #050C24;
+
+  --foreground: #171717;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/roboto/Roboto-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;  /* Regular Roboto */
+  font-weight: 400;
+}
+
+
+
+
+.custom-tracking {
+  letter-spacing: 0.02em; /* Adjust the value as needed */
+}
+/* fixed headar */
+.header {
+  position: sticky; /* Sticky position use kar raha hai */
+  top: 2px; /* Jab header top par aaye to fixed ho jaye */
+  background-color: #050C24; /* Background color set karna */
+  z-index: 1000; /* Z-index set karke header ko upar rakhna */
+}
+
+
+/* fadein animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}

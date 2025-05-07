@@ -1,0 +1,40 @@
+/* responsive.css */
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    /* Adjust font sizes, paddings, margins, and flex directions */
+    .text-3xl {
+      font-size: 1.875rem; /* Reduce text size */
+    }
+    .ml-10 {
+      margin-left: 2rem; /* Reduce left margin */
+    }
+    .max-w-md {
+      max-width: 100%; /* Set full width */
+    }
+    /* Hide or adjust large images */
+    .flex-shrink-0 img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Small mobile screens */
+  @media (max-width: 480px) {
+    .text-3xl {
+      font-size: 1.5rem; /* Further reduce font size */
+    }
+    .mt-2 {
+      margin-top: 0.5rem; /* Adjust spacing */
+    }
+    .space-x-4 {
+      gap: 0.5rem; /* Reduce gaps between elements */
+    }
+    /* Center the text and align items for smaller screens */
+    .flex {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
