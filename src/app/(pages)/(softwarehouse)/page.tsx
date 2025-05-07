@@ -1,9 +1,5 @@
-'use client';
-import { useState, useEffect } from "react";
-
 import React from "react";
 import "@/css/bganimation.css"; // Ensure the animation CSS is imported
-import Image from "next/image";
 import HomePage from "./(pages)/home/page";
 
 
