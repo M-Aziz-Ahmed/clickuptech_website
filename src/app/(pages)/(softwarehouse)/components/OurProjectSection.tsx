@@ -1,5 +1,6 @@
 import Image from "next/image";
 import * as motion from "framer-motion/client";
+import Link from "next/link";
 
 export default function OurProjectSection() {
   return (
@@ -49,12 +50,12 @@ export default function OurProjectSection() {
                     accurately process and analyze text-based inputs.
                   </p>
                   <div className="mt-6">
-                    <a
+                    <Link
                       className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="/login"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -108,12 +109,12 @@ export default function OurProjectSection() {
                     or neutral) expressed in text or customer feedback.
                   </p>
                   <div className="mt-6">
-                    <a
+                    <Link
                       className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="/login"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -167,12 +168,12 @@ export default function OurProjectSection() {
                     results.
                   </p>
                   <div className="mt-6">
-                    <a
+                    <Link
                       className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="/login"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import logo from "@/assets/images/clickuplogo-green.png";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function FooterSection() {
@@ -11,17 +12,17 @@ export default function FooterSection() {
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
               <div className="space-y-4">
                 <div>
-                  <a href="/">
+                  <Link href="/">
                   <div className="flex items-center">
                       <Image src={logo} alt="logo" width={200} />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="max-w-md pr-16 text-md text-gray-200">
                   Enhance productivity and efficiency with cutting-edge artificial intelligence solutions for your business operations.
                 </div>
                 <div className="flex space-x-2">
-                  <a href="" target="_blank" className="text-gray-200 hover:text-gray-200">
+                  <Link href="" target="_blank" className="text-gray-200 hover:text-gray-200">
                     <span className="sr-only">Linkedin</span>
                     <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
                       <path
@@ -30,13 +31,13 @@ export default function FooterSection() {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                  </a>
-                  <a href="" target="_blank" className="text-gray-200 hover:text-gray-200">
+                  </Link>
+                  <Link href="" target="_blank" className="text-gray-200 hover:text-gray-200">
                     <span className="sr-only">Twitter</span>
                     <svg fill="currentColor" viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
                       <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -45,19 +46,19 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Our Solutions</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/aiplatform" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aiplatform" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           AI Platform
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/aialgorithms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aialgorithms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           AI Algorithms
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/industryapplications" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/industryapplications" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Industry Applications
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -65,19 +66,19 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Use Cases</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/predictiveanalysis" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/predictiveanalysis" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Predictive Analysis
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/customerexperience" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/customerexperience" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Customer Experience
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/automation" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/automation" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Automation
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -87,29 +88,29 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Resources</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/pricing" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/pricing" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Pricing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/blog" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/blog" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Blog
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/casestudies" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/casestudies" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Case Studies
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/terms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/terms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Terms of Service
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/privacy" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/privacy" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Privacy Policy
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -117,19 +118,19 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Company</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/aboutus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aboutus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/careers" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/careers" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Careers
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/contactus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/contactus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

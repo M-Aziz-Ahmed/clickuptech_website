@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
@@ -42,13 +42,7 @@ const navItems: NavItem[] = [
 ];
 
 export default function Header() {
-  const [loading, setLoading] = useState<boolean>(true);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 500);
-  }, []);
 
   return (
     <header className="font-[Proxima] header fixed shadow-sm tracking-wide z-50 mt-3 mx-3 rounded-lg text-lg  ">

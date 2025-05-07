@@ -11,6 +11,7 @@ import graphicImg from "@/assets/images/landing-page/graphic-design.png";
 import customSoftware from "@/assets/images/landing-page/custom-software.png";
 import socialMediaImg from "@/assets/images/landing-page/social-media.png";
 import webDevelopment from "@/assets/images/landing-page/web-development.png";
+import Link from "next/link";
 
 export default function OurServicesCard() {
   return (
@@ -45,18 +46,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -78,18 +79,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -111,18 +112,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -144,18 +145,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -177,18 +178,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -210,18 +211,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -243,18 +244,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -276,18 +277,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -309,18 +310,18 @@ export default function OurServicesCard() {
 
               <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
+                  Perfect for learning how the framework works, prototyping Link
+                  new idea, or creating Link demo to share online.
                 </p>
               </div>
               <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sky-500 transition-all duration-300 group-hover:text-white"
                   >
                     Read the docs &rarr;
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

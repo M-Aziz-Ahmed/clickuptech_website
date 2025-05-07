@@ -1,5 +1,3 @@
-
-import { useRouter } from "next/navigation";
 import WhyChooseOurTeam from "../../components/WhyChooseOurTeam";
 import OurProjectSection from "../../components/OurProjectSection";
 import HomeFrontTopSection from "../../components/HomeFrontTopSection";
@@ -9,7 +7,6 @@ import HireDevCard from "../../components/HireDevCard";
 import Testimonies from "../../components/Testimonies";
 import FAQ from "../../components/FAQ";
 import ContactUs from "../../components/ContactusForm";
-import FooterSection from "../../components/Footer";
 
 const HomePage: React.FC = () => {
   return (

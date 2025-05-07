@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FiArrowRight  } from "react-icons/fi";
 
@@ -23,7 +24,7 @@ const ContactUs = () => {
 
                 <div className="absolute bottom-0 w-full lg:p-11 p-5">
                   <div className="bg-white rounded-lg p-6 block">
-                    <a href="javascript:;" className="flex items-center mb-6">
+                    <Link href="javascript:;" className="flex items-center mb-6">
                       <svg
                         width="30"
                         height="30"
@@ -42,8 +43,8 @@ const ContactUs = () => {
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         0337 777 5930
                       </h5>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="https://veilmail.io/irish-geoff"
                       className="flex items-center mb-6"
                     >
@@ -64,8 +65,8 @@ const ContactUs = () => {
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         https://contact@clickuptech.com
                       </h5>
-                    </a>
-                    <a href="javascript:;" className="flex items-center">
+                    </Link>
+                    <Link href="javascript:;" className="flex items-center">
                       <svg
                         width="30"
                         height="30"
@@ -87,7 +88,7 @@ const ContactUs = () => {
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         72 Sujo street,  Captown , Lahore
                       </h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

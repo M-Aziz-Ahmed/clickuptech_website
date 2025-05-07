@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WhyChooseInstitude() {
     return (
@@ -98,13 +99,13 @@ export default function WhyChooseInstitude() {
                 </dl>
               </div>
               <div className="mt-5 flex items-center gap-x-6 justify-end">
-                <a href="#"
+                <Link href="#"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                     Apply Now
-                </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-secondaryColor">Download Brousher
+                </Link>
+                <Link href="#" className="text-sm font-semibold leading-6 text-secondaryColor">Download Brousher
                   <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
             <Image src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Product screenshot" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442"/>

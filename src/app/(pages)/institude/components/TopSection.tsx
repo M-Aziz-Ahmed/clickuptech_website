@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaDownload, FaRegCheckCircle } from "react-icons/fa"; // Importing icons
 import frontImg from "@/assets/images/institude-images/institude-front-img.png"; // Adjust path as needed
+import Link from "next/link";
 
 export default function TopSection() {
   return (
@@ -29,21 +30,21 @@ export default function TopSection() {
             And Earn  6 Figure Salary in a month.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <a
+              <Link
                 href="#"
                 className="border-2 border-white text-white font-semibold px-8 py-3 rounded-full flex items-center justify-center space-x-2 hover:bg-white hover:text-blue-900 transition duration-300 text-center"
               >
                 <span>Download Brochure</span>
                 <FaDownload />
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#"
                 className="bg-secondaryColor text-black font-semibold px-8 py-3 rounded-full flex items-center justify-center space-x-2 hover:bg-blue-100 transition duration-300 text-center"
               >
                 <span>Apply Now!</span>
                 <FaRegCheckCircle />
-              </a>
+              </Link>
             </div>
           </div>
 

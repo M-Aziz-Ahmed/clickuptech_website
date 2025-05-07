@@ -1,5 +1,6 @@
 import Image from "next/image";
 import appImage from "@/assets/images/landing-page/home-front-img.png"; // Update with your actual image path
+import Link from "next/link";
 
 export default function HomeFrontTopSection() {
   return (
@@ -40,7 +41,7 @@ export default function HomeFrontTopSection() {
                 <h3 className="text-lg font-semibold">97% Repeat Business</h3>
                 <p className="text-sm text-gray-500">
                   We not only deliver projects successfully but also value
-                  relationships. With a focus on repeat business and long-term
+                  relationships. With Link focus on repeat business and long-term
                   relationships with our clients and partners, we drive
                   innovation.
                 </p>
@@ -72,7 +73,7 @@ export default function HomeFrontTopSection() {
               <span className="font-[proxima] font-bold text-sm md:text-base text-secondaryColor ml-3">
                 Get In Touch
               </span>
-              <a
+              <Link
                 href="/"
                 className="w-8 h-8 rounded-full flex justify-center items-center bg-secondaryColor"
               >
@@ -91,11 +92,11 @@ export default function HomeFrontTopSection() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             {/* Hire Our Developers Button */}
-            <a
+            <Link
               href="javascript:;"
               className="w-full md:w-auto inline-flex items-center justify-center py-2 md:py-3 px-3 md:px-4 text-sm md:text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500"
             >
@@ -116,7 +117,7 @@ export default function HomeFrontTopSection() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         {/* Right Side Image */}

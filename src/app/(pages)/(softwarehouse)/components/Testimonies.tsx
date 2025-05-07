@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FiUser } from "react-icons/fi";
 
 export default function Testimonies() {
@@ -26,7 +27,7 @@ export default function Testimonies() {
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/tim_cook"
                     className="cursor-pointer"
                   >
@@ -47,13 +48,13 @@ export default function Testimonies() {
                         sagittis aliquam malesuada bibendum.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/kanyewest"
                     className="cursor-pointer"
                   >
@@ -74,7 +75,7 @@ export default function Testimonies() {
                         Find God.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
              
@@ -84,7 +85,7 @@ export default function Testimonies() {
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/paraga"
                     className="cursor-pointer"
                   >
@@ -105,14 +106,14 @@ export default function Testimonies() {
                         habitasse platea dictumst.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
              
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/tim_cook"
                     className="cursor-pointer"
                   >
@@ -132,7 +133,7 @@ export default function Testimonies() {
                         sagittis aliquam malesuada bibendum.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -142,7 +143,7 @@ export default function Testimonies() {
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/dan_schulman"
                     className="cursor-pointer"
                   >
@@ -161,13 +162,13 @@ export default function Testimonies() {
                         consequat id. Enim sit amet venenatis urna cursus.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="text-sm leading-6">
                 <div className="relative group">
                   <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <a
+                  <Link
                     href="https://twitter.com/satyanadella"
                     className="cursor-pointer"
                   >
@@ -190,7 +191,7 @@ export default function Testimonies() {
                         ultrices gravida dictum fusce ut.
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </li>
       

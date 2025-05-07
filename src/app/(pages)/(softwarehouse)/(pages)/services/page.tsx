@@ -1,5 +1,6 @@
 import Image from "next/image";
 import servicesbg from "@/assets/images/services-bg.jpeg";
+import Link from "next/link";
 
 export default function Services() {
 
@@ -23,12 +24,12 @@ export default function Services() {
             <p className="text-lg text-gray-300 mb-8">
               Discover amazing features and services that await you.
             </p>
-            <a
+            <Link
               href="#"
               className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
     </>
