@@ -1,4 +1,3 @@
-import InstitudeHeader from "./components/InstitudeHeader";
 import TopSection from "./components/TopSection";
 import OurCourses from "./components/OurCourses";
 import WhyChooseInstitude from "./components/WhyChooseInstitude";
