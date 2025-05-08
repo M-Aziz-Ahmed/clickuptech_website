@@ -1,4 +1,4 @@
-import Loader from '../(softwarehouse)/components/Loader'
+import Loader from '../softwarehouse/components/Loader'
 const Loading = ({}) => {
   return <Loader />
 }

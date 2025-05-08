@@ -1,10 +1,11 @@
 "use client";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaChevronDown, FaBars, FaTimes, FaPhone } from "react-icons/fa";
 import logo from "@/assets/images/clickuplogo-green.png";
 import "@/css/globals.css";
+import Model from "./Model";
 
 type NavItem = {
   label: string;
@@ -13,8 +14,13 @@ type NavItem = {
   iconImage?: string;
 };
 
+interface ModelProps {
+  model: boolean;
+  setModel: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
 const navItems: NavItem[] = [
-  { label: "Home", link: "/institude" },
+  { label: "Home", link: "/" },
   {
     label: "Courses",
     link: "/courses",
@@ -42,10 +48,12 @@ const navItems: NavItem[] = [
 ];
 
 export default function InstitudeHeader() {
+  const [model, setModel] = useState(false)
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="font-[Proxima] header fixed shadow-sm tracking-wide z-50 mt-3 mx-3 rounded-lg text-lg">
+      <Model model={model} setModel={setModel} />
       <section className="flex items-center justify-between gap-4 py-3 px-4 lg:px-10">
         {/* Logo Section */}
         <div className="flex items-center">
@@ -68,41 +76,42 @@ export default function InstitudeHeader() {
         <div className="hidden lg:flex items-center gap-8 ml-auto mr-10">
           <nav className="flex items-center gap-8">
             {navItems.map((item) => (
-             <div key={item.label} className="relative group">
-             <Link
-               href={item.link || "#"}
-               className="flex items-center text-white hover:text-[#5EE616]"
-             >
-               {item.label}
-               {(item.label === "Courses" ||
-                 item.label === "More") && (
-                 <FaChevronDown className="ml-1 text-sm align-middle" />
-               )}
-             </Link>
+              <div key={item.label} className="relative group">
+                <Link
+                  href={item.link || "#"}
+                  className="flex items-center text-white hover:text-[#5EE616]"
+                >
+                  {item.label}
+                  {(item.label === "Courses" ||
+                    item.label === "More") && (
+                      <FaChevronDown className="ml-1 text-sm align-middle" />
+                    )}
+                </Link>
 
-             {/* Submenu */}
-             {item.children && (
-               <ul className="absolute top-[150%] left-1/2 -translate-x-1/2 w-78 bg-[#FFFFFF] shadow-lg rounded-lg p-2 transition-all duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
-                 {item.children.map((child) => (
-                   <li key={child.label}>
-                     <Link
-                       href={child.link || "#"}
-                       className="block px-4 py-2 text-black hover:bg-primaryColor hover:text-secondaryColor rounded-lg whitespace-nowrap text-sm"
-                     >
-                       {child.label}
-                     </Link>
-                   </li>
-                 ))}
-               </ul>
-             )}
-           </div>
+                {/* Submenu */}
+                {item.children && (
+                  <ul className="absolute top-[150%] left-1/2 -translate-x-1/2 w-78 bg-[#FFFFFF] shadow-lg rounded-lg p-2 transition-all duration-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                    {item.children.map((child) => (
+                      <li key={child.label}>
+                        <Link
+                          href={child.link || "#"}
+                          className="block px-4 py-2 text-black hover:bg-primaryColor hover:text-secondaryColor rounded-lg whitespace-nowrap text-sm"
+                        >
+                          {child.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             ))}
           </nav>
 
           {/* Register Button */}
           <Link
-            href="/institude"
+            href="/"
             className="font-bold text-white bg-gradient-to-r from-red-400 to-yellow-500 px-4 py-1 rounded-lg transition-all duration-300 hover:from-[#fe8c00] hover:to-[#f83600] hover:animate-none"
+            onClick={()=> setModel(true)}
           >
             Enroll Now
           </Link>
@@ -159,7 +168,10 @@ export default function InstitudeHeader() {
           >
             Institute
           </Link>
+
+
         </div>
+
       )}
     </header>
   );

@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(pages)/(institude)/components/ContactForm.jsx", "src/app/(pages)/(institude)/components/Model.jsx"],
   "exclude": ["node_modules"]
 }
