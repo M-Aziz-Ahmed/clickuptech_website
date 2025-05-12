@@ -1,5 +1,5 @@
 "use client";
-import { SetStateAction, useState } from "react";
+import {useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaChevronDown, FaBars, FaTimes, FaPhone } from "react-icons/fa";
@@ -14,10 +14,6 @@ type NavItem = {
   iconImage?: string;
 };
 
-interface ModelProps {
-  model: boolean;
-  setModel: React.Dispatch<React.SetStateAction<boolean>>;
-}
 
 const navItems: NavItem[] = [
   { label: "Home", link: "/" },

@@ -1,5 +1,3 @@
-'use client'
-import React, { useState } from 'react'
 import ContactForm from './ContactForm';
 
 const Model = ({model, setModel}) => {
