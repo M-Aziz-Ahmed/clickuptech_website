@@ -3,7 +3,7 @@ import { SetStateAction, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaChevronDown, FaBars, FaTimes, FaPhone } from "react-icons/fa";
-import logo from "@/assets/images/logo.jpg";
+import logo from "@/assets/images/logo.png";
 import "@/css/globals.css";
 import Model from "./Model";
 
@@ -58,8 +58,7 @@ export default function InstitudeHeader() {
         {/* Logo Section */}
         <div className="flex items-center">
           <Link href="/">
-            {/* <Image src={logo} alt="logo" width={180} /> */}
-            Digi Sukool
+            <Image src={logo} alt="logo" width={80} height={80} />
           </Link>
         </div>
 

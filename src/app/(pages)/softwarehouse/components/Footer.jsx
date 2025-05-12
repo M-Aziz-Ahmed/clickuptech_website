@@ -1,4 +1,4 @@
-import logo from "@/assets/images/clickuplogo-green.png";
+import logo from "@/assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 

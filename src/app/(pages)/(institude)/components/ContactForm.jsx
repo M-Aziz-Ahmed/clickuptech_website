@@ -74,7 +74,7 @@ const ContactForm = () => {
             // Here you would typically make an API call to submit the form
             // For demonstration, we'll just simulate an API call
             await new Promise(resolve => setTimeout(resolve, 1000));
-            
+            console.log(values)           
             setSubmitSuccess(true);
             setValues({
                 name: '',
