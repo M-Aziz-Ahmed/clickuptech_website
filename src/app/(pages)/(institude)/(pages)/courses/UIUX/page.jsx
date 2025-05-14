@@ -14,7 +14,7 @@ const Page = () => {
         { tab: '1', show: false },
         { tab: '2', show: false },
         { tab: '3', show: false },
-    ]);x
+    ]);
     return (
         <><div className="container">
             <section className="relative container bg-gradient-to-br from-[#06044A] to-[#3403B8] text-white overflow-hidden" >
