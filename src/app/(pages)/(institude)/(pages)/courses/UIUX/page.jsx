@@ -112,7 +112,7 @@ const Page = () => {
                                                     <ul>
                                                         <li><div className="h5 fw-bolder">What is UI/UX Design?</div></li>
                                                         <li><div className="p">Definitions of User Interface (UI) and User Experience (UX)</div></li>
-                                                        <li><div className="p">Importance in today's digital landscape</div></li>
+                                                        <li><div className="p">Importance in today&apos;s digital landscape</div></li>
                                                         <br />
                                                         <li><div className="h5 fw-bolder">Benefits of UI/UX Design:</div></li>
                                                         <li><div className="p">Enhanced user satisfaction</div></li>
