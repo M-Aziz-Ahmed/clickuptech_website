@@ -39,8 +39,8 @@ const navItems: NavItem[] = [
       { label: "Data Scientist", link: "#" },
     ],
   },
-  { label: "FAQS", link: "#" },
-  { label: "Blog", link: "/about" },
+  { label: "FAQS", link: "/faq" },
+  // { label: "Blog", link: "#" },
 ];
 
 export default function InstitudeHeader() {
