@@ -67,7 +67,7 @@ const Page = () => {
           
           <div className={styles.textBlock}>
             <p>
-              Today websites are essential for every company in any sector. The web is growing rapidly, and its technologies and methodologies are evolving at an incredible pace. The latest design and development techniques are making the field's scope wider, and course content is expanding daily.
+              Today websites are essential for every company in any sector. The web is growing rapidly, and its technologies and methodologies are evolving at an incredible pace. The latest design and development techniques are making the field&apos;s scope wider, and course content is expanding daily.
             </p>
             <p>
               At Galaxy Computer Education, you can now choose customized content or specialize in different sectors of web design. Our Web Design and Development course is divided into four specialized areas at Galaxy Computer Education & Training Institute.
