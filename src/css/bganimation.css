@@ -1,11 +1,11 @@
-.circles li {
+/* .circles li {
 	position: absolute;
 	display: block;
 	list-style: none;
 	width: 20px;
 	height: 20px;
 	background: rgba(255, 255, 255, 0.2);
-	animation: animate 15s linear infinite; /* Duration ko 25s se 15s kar diya */
+	animation: animate 15s linear infinite;
 	bottom: -150px;
 }
 
@@ -20,8 +20,8 @@
 	left: 10%;
 	width: 20px;
 	height: 20px;
-	animation-delay: 1s; /* Delay ko bhi thora kam kiya */
-	animation-duration: 8s; /* Duration reduced for faster effect */
+	animation-delay: 1s;
+	animation-duration: 8s;
 }
 
 .circles li:nth-child(3) {
@@ -100,4 +100,4 @@
 		opacity: 0;
 		border-radius: 50%;
 	}
-}
+} */

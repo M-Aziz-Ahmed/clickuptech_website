@@ -25,7 +25,7 @@ export default function TopSection() {
               </span>
             </h1>
             <p className="text-xl mb-8 text-gray-300">
-            Become a fullstack web developer at Clickuptech  
+            Become a fullstack web developer at DigiSukool  
             <br />
             And Earn  6 Figure Salary in a month.
             </p>
