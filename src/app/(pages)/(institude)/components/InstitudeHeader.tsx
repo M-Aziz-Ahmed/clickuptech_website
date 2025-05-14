@@ -32,7 +32,7 @@ const navItems: NavItem[] = [
   },
   {
     label: "More",
-    link: "/hire-developers",
+    link: "#",
     children: [
       { label: "Web Developer", link: "#" },
       { label: "Mobile Developer", link: "#" },
