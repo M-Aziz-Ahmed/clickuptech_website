@@ -188,8 +188,8 @@ const Page = () => {
                   {
                     title: "In-Demand Skills",
                     items: [
-                      "Acquire skills that are highly sought after in today's digital job market.",
-                      "Meet the growing demand for competent web designers in Abu Dhabi."
+                      `Acquire skills that are highly sought after in today`&apos`s digital job market.",
+                      "Meet the growing demand for competent web designers in Abu Dhabi.`
                     ]
                   },
                   {
