@@ -14,7 +14,7 @@ const Page = () => {
         { tab: '1', show: false },
         { tab: '2', show: false },
         { tab: '3', show: false },
-    ])
+    ]);x
     return (
         <><div className="container">
             <section className="relative container bg-gradient-to-br from-[#06044A] to-[#3403B8] text-white overflow-hidden" >
@@ -122,102 +122,6 @@ const Page = () => {
                                                         <li><div className="h5 fw-bolder">Who Can Learn This Course:</div></li>
                                                         <li><div className="p">Roles that benefit from UI/UX knowledge</div></li>
 
-
-                                                        
-                                                    </ul>
-                                                </div>
-                                            )}
-                                        </div>
-                                 </div>
-                                 <div className="dropdown my-5">
-                                        <div
-                                            className={`d-flex  ${tabs[1].show ? `text-orange-400` : `text-black bg-white`} lg:p-3 items-center justify-between lg:px-5 transition-colors duration-900`}
-                                            onClick={() => setTabs(tabs.map((tab, i) =>
-                                                i === 1 ? { ...tab, show: !tab.show } : tab
-                                            ))}
-                                        >
-                                            <div className="h4">Module : 02 Understanding the Design Process</div>
-                                            {tabs[1].show ? (
-                                                <div className="h4"><Image src={minus} width={20} alt="➕" /></div>
-                                            ) : (
-                                            <div className="h4 fw-bolder" ><Image src={add} width={20} alt="➕"></Image></div>
-                                        )}
-                                        </div>
-                                        <div className={`overflow-hidden transition-all duration-1000 ease-in-out ${tabs[1].show ? 'max-h-96' : 'max-h-0'}`}>
-                                            {tabs[1].show && (
-                                                <div className="flex flex-col bg-white lg:p-5 text-black">
-                                                    <ul>
-                                                        <li><div className="h5 fw-bolder">Design Thinking Principles</div></li>
-                                                        <li><div className="p">Empathize, Define, Ideate, Prototype, Test</div></li><br />
-                                                        <li><div className="h5 fw-bolder">User Research:</div></li>
-                                                        <li><div className="p">Methods (surveys, interviews, user personas)</div></li>
-                                                        <li><div className="p">Analyzing user needs</div></li>
-                                                        <br />
-                                                    </ul>
-                                                </div>
-                                            )}
-                                        </div>
-                                    </div>
-                                    <div className="dropdown">
-                                        <div
-                                            className={`d-flex  ${tabs[2].show ? `text-orange-400` : `text-black bg-white`} lg:p-3 items-center justify-between lg:px-5 transition-colors duration-900`}
-                                            onClick={() => setTabs(tabs.map((tab, i) =>
-                                                i === 2 ? { ...tab, show: !tab.show } : tab
-                                            ))}
-                                        >
-                                            <div className="h4">Module : 03 Adobe XD Training</div>
-                                            {tabs[2].show ? (
-                                                <div className="h4"><Image src={minus} width={20} alt="➕" /></div>
-                                            ) : (
-                                                <div className="h4 fw-bolder" ><Image src={add} width={20} alt="➕"></Image></div>
-                                            )}
-                                        </div>
-                                        <div className={`overflow-hidden transition-all duration-1000 ease-in-out ${tabs[2].show ? 'max-h-100' : 'max-h-0'}`}>
-                                            {tabs[2].show && (
-                                                <div className="flex flex-col bg-white lg:p-5 text-black">
-                                                    <ul>
-                                                        <li><div className="h5 fw-bolder">Chapter 1: Introduction to Adobe XD and Workspace</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Overview of Adobe XD, interface layout, and navigation tools</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 2: Working with Artboards</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Understanding artboards, creating and resizing, device-specific presets</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 3: Working with Shapes and Colors</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Drawing basic shapes, applying colors and gradients, using the color picker and libraries</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 4: Working with the Pen Tool</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Drawing custom shapes, anchor points, and paths</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 5: Understanding the Type Tool and Its Types</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span>Text tool functions, font types and sizes, text alignment and spacing</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 6: Working with Images and Masks</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Importing images, applying masking techniques</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 7: Grids and Layout</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Using grids for layout consistency, setting up layout grids</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 8: Scrolling and Layout</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Creating scrollable artboards, fixed vs. variable content</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 9: Repeat Grid</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Creating and editing Repeat Grids, adjusting spacing and content</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 10: Layers, Assets, Groups, and Components</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Layer management, using assets, grouping, and creating components</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 11: Prototyping</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Linking artboards, setting up interactions and triggers</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 12: Animation and Its Types</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span>Types of animations (auto-animate, transition), setting animation properties</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 13: Export and Share Your Project</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Exporting assets, sharing prototypes with stakeholders</div></li>
-                                                        <br />
-                                                        <li><div className="h5 fw-bolder">Chapter 14: Final Project</div></li>
-                                                        <li><div className="p"><span className=" fw-bolder">Key Concepts:</span> Application of learned skills in a comprehensive design project, peer review and feedback</div></li>                                                        <br />
-                                                 
 
                                                         
                                                     </ul>
