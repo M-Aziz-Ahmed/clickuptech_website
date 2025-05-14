@@ -60,11 +60,11 @@ const Page = () => {
                 <div className="container mx-auto  py-12 md:py-16 relative ">
                     <div className="container my-5 mx-auto lg:px-4">
                         <h3 className="text-5xl md:text-6xl font-bold mb-6 leading-tight font-[Proxima]" >
+                            <span className=" text-orange-300">Microsoft Office</span> Courses in abu dhabi
+                        </h3>
                         <p>
                             Welcome to Galaxy Computer Education & Training Institute. Your premier destination for comprehensive Microsoft Office courses in Abu Dhabi. Whether you are a beginner or an experienced professional looking to enhance your skills, our institute offers a diverse range of courses tailored to meet your unique learning needs. With experienced trainers, state-of-the-art facilities, and hands-on training, we strive to provide you with the best learning experience possible.
                         </p><br />
-                            <span className=" text-orange-300">Microsoft Office</span> Courses in abu dhabi
-                        </h3>
                         <p className="text-xl mb-8 m-3 text-gray-300">
                             The course covers all the essential software programs and techniques you need to succeed in the industry, and the experienced instructors and state-of-the-art facilities will ensure you have the best possible learning experience. With so many career opportunities available, the course is a fantastic investment in your future.
                         </p>
