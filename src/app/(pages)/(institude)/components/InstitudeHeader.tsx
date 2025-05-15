@@ -48,7 +48,7 @@ export default function InstitudeHeader() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="font-[Proxima] header fixed shadow-sm tracking-wide z-50 mt-3 mx-3 rounded-lg text-lg">
+    <header className="font-[Proxima] header fixed shadow-sm tracking-wide top-0 text-lg bg-gradient-to-t from-[#1F419B] to-[#1F419B]">
       <Model model={model} setModel={setModel} />
       <section className="flex items-center justify-between gap-4 py-3 px-4 lg:px-10">
         {/* Logo Section */}

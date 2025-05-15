@@ -106,7 +106,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-gradient-to-r from-violet-600 to-indigo-600 rounded p-4 lg:w-[40vw] sm:w-[100%]">
+        <div className="bg-gradient-to-t from-[#1F419B] to-[#1F419B] rounded p-4 lg:w-[40vw] sm:w-[100%]">
             {submitSuccess ? (
                 <div className="text-center py-4">
                     <div className="text-2xl font-bold mb-2">Thank You!</div>

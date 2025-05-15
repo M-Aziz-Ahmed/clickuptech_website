@@ -1,6 +1,7 @@
 import * as motion from "framer-motion/client";
 import Data from "../(pages)/courses/data";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function OurCourses() {
   const { data } = Data()
@@ -28,26 +29,30 @@ export default function OurCourses() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 hover:text  ">
         {data.map((card, index) => (
           <Link href={`${card.link}`} key={card.title} >
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.15 }}
-              viewport={{ once: true }}
-              className="service-card bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-2xl  border-2 border-transparent hover:border-secondaryColor "
-            >
-              <motion.div
-                whileHover={{ scale: 1.2, rotate: 10 }}
-                transition={{ type: "spring", stiffness: 300 }}
-                className="text-5xl mb-4 transition-transform duration-300 transform hover:rotate-12"
-              >
-                {card.icon}
-              </motion.div>
-              <h3 className="text-xl font-semibold mb-2  text-[#3E5AFD] font-[Proxima]">
-                {card.title}
-              </h3>
-              <p className="text-gray-600">{card.description}</p>
-            </motion.div>
+            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#1F419B] transition-all duration-300 group-hover:scale-[10]"></span>
+              <div className="relative z-10 mx-auto max-w-md">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-[#d4defa] group-hover:bg-white transition-all duration-300 border-[1px] border-[#1F419B]">
+                  {/* <Image
+                    src={card.icon}
+                    alt="androidImg"
+                    width={40}
+                    height={40}
+                    className="rounded-full"
+                  /> */}
+                  {card.icon}
+                </span>
+
+                <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <div className="h4">{card.title}</div>
+                  <p>
+                    {card.description}
+                  </p>
+                </div>
+                <div className="pt-5 text-base font-semibold leading-7">
+                </div>
+              </div>
+            </div>
           </Link>
         ))}
       </div>
