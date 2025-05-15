@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function TopSection() {
   return (
-    <section className="  relative bg-gradient-to-t from-[#1F419B] to-[#1F419B] text-white overflow-hidden">
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+    <section className="  relative bg-white text-black overflow-hidden">
+      {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
 
-      <div className="container mx-auto  py-12 md:py-16 relative ">
+      <div className="container mx-auto  py-0 md:py-16 relative ">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left Side: Company Info */}
           <div className="md:w-1/2 mb-12 md:mb-0">
@@ -16,11 +16,11 @@ export default function TopSection() {
               Future Belongs To
               <br />
               Those Who{" "}
-              <span className="bg-gradient-to-r from-[#5EE616] to-[#209B72] inline-block text-transparent bg-clip-text font-[Proxima]">
+              <span className="bg-[#1F419B] inline-block text-transparent bg-clip-text font-[Proxima]">
                 Learn
               </span>
               <br />
-              <span className="bg-gradient-to-r from-[#5EE616] to-[#209B72] inline-block text-transparent bg-clip-text text-7xl font-[Proxima] font-extrabold">
+              <span className="bg-[#1F419B] inline-block text-transparent bg-clip-text text-7xl font-[Proxima] font-extrabold">
                 Tech Today
               </span>
             </h1>
@@ -32,7 +32,7 @@ export default function TopSection() {
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a
                 href="/brochure.pdf"
-                className="border-2 border-white text-white font-semibold px-8 py-3 rounded-full flex items-center justify-center space-x-2 hover:bg-white hover:text-blue-900 transition duration-300 text-center"
+                className="border-2 border-black font-semibold px-8 py-3 rounded-full flex items-center justify-center space-x-2 hover:bg-[#1F419B] hover:text-white transition duration-300 text-center"
                 download
               >
                 <span>Download Brochure</span>
