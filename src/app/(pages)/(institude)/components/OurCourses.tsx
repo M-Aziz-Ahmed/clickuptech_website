@@ -1,7 +1,6 @@
 import * as motion from "framer-motion/client";
 import Data from "../(pages)/courses/data";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function OurCourses() {
   const { data } = Data()
