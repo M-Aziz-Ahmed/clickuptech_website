@@ -9,7 +9,7 @@ export default function RootLayout({children}){
 
   return (
     <html lang="en">
-    <body className="font-[Proxima]">
+    <body className="font-[poppins]">
       <Header/>
       { children}
       <FooterSection/>

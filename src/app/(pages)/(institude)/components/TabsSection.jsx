@@ -23,11 +23,11 @@ const TabsSection = () => {
     return (
         <div className="tabs-container">
             <nav>
-                <div className="flex container justify-around flex-wrap gap-2">
+                <div className="flex container flex-wrap gap-4 justify-center">
                     {tabs.map((tab, index) => (
                         <button
                             key={tab.id}
-                            className={`px-5 py-3 border-x fw-bolder ${tab.show ? 'text-white bg-[#1F419B] shadow-lg' : 'bg-gray-100'}`}
+                            className={`px-2 py-3 border-x fw-bold ${tab.show ? 'text-white bg-[#1F419B] shadow' : 'text-secondary'}`}
                             onClick={() => handleTabClick(index)}
                         >
                             {tab.content}

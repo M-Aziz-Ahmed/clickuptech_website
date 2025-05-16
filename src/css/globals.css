@@ -2,33 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../assets/fonts/roboto/Roboto-Black.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
-  font-style: normal;
-}
-
 p {
   font-family: 'Roboto', sans-serif;  /* Regular Roboto */
   font-weight: 400;

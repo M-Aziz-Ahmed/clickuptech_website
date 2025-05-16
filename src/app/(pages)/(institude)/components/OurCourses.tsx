@@ -30,7 +30,7 @@ export default function OurCourses() {
           <Link href={`${card.link}`} key={card.title} >
             <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
               <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#1F419B] transition-all duration-300 group-hover:scale-[10]"></span>
-              <div className="relative z-10 mx-auto max-w-md">
+              <div className="relative z-10 h-[230px] max-w-md">
                 <span className="grid h-20 w-20 place-items-center rounded-full bg-[#d4defa] group-hover:bg-white transition-all duration-300 border-[1px] border-[#1F419B]">
                   {/* <Image
                     src={card.icon}
@@ -42,7 +42,7 @@ export default function OurCourses() {
                   {card.icon}
                 </span>
 
-                <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <div className="mt-3 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <div className="h4">{card.title}</div>
                   <p>
                     {card.description}
