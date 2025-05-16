@@ -1,6 +1,7 @@
 import logo from "@/assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { BiChevronRight } from "react-icons/bi";
 
 
 export default function FooterSection() {
@@ -13,7 +14,7 @@ export default function FooterSection() {
               <div className="space-y-4">
                 <div>
                   <Link href="/">
-                  <div className="flex items-center">
+                    <div className="flex items-center">
                       <Image src={logo} alt="logo" width={200} />
                     </div>
                   </Link>
@@ -40,23 +41,26 @@ export default function FooterSection() {
                   </Link>
                 </div>
               </div>
-              <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">  
                 <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-md font-semibold leading-6 text-white">Our Solutions</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <Link href="/aiplatform" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aiplatform" className="text-md leading-6 text-gray-300 flex items-center hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           AI Platform
                         </Link>
                       </li>
                       <li>
-                        <Link href="/aialgorithms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aialgorithms" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           AI Algorithms
                         </Link>
                       </li>
                       <li>
-                        <Link href="/industryapplications" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/industryapplications" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Industry Applications
                         </Link>
                       </li>
@@ -66,17 +70,20 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Use Cases</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <Link href="/predictiveanalysis" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/predictiveanalysis" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Predictive Analysis
                         </Link>
                       </li>
                       <li>
-                        <Link href="/customerexperience" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/customerexperience" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Customer Experience
                         </Link>
                       </li>
                       <li>
-                        <Link href="/automation" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/automation" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Automation
                         </Link>
                       </li>
@@ -88,27 +95,32 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Resources</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <Link href="/pricing" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/pricing" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Pricing
                         </Link>
                       </li>
                       <li>
-                        <Link href="/blog" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/blog" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Blog
                         </Link>
                       </li>
                       <li>
-                        <Link href="/casestudies" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/casestudies" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Case Studies
                         </Link>
                       </li>
                       <li>
-                        <Link href="/terms" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/terms" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Terms of Service
                         </Link>
                       </li>
                       <li>
-                        <Link href="/privacy" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/privacy" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Privacy Policy
                         </Link>
                       </li>
@@ -118,17 +130,20 @@ export default function FooterSection() {
                     <h3 className="text-md font-semibold leading-6 text-white">Company</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <Link href="/aboutus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/aboutus" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           About Us
                         </Link>
                       </li>
                       <li>
-                        <Link href="/careers" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/careers" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Careers
                         </Link>
                       </li>
                       <li>
-                        <Link href="/contactus" className="text-md leading-6 text-gray-300 hover:text-gray-50">
+                        <Link href="/contactus" className="text-md leading-6 flex items-center text-gray-300 hover:text-gray-50">
+                          <BiChevronRight className="text-blue-500" />
                           Contact Us
                         </Link>
                       </li>

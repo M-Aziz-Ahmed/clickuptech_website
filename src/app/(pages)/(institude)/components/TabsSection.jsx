@@ -8,9 +8,9 @@ const TabsSection = () => {
         { id: 2, show: false, content: "Web Development" },
         { id: 3, show: false, content: "Graphic Design" },
         { id: 4, show: false, content: "Video Editing" },
-        { id: 4, show: false, content: "Digital Marketing" },
-        { id: 4, show: false, content: "Architect Course" },
-        { id: 4, show: false, content: "Content for Tab 4" },
+        { id: 5, show: false, content: "Digital Marketing" },
+        { id: 6, show: false, content: "Architect Course" },
+        { id: 7, show: false, content: "Content for Tab 4" },
     ])
 
     const handleTabClick = (tabIndex) => {

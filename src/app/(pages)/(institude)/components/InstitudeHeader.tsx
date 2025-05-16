@@ -1,8 +1,9 @@
 "use client";
-import {useState} from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaChevronDown, FaBars, FaTimes, FaPhone } from "react-icons/fa";
+import { FaChevronDown, FaBars, FaTimes, FaPhone,FaFacebook,FaInstagram, FaLinkedin } from "react-icons/fa";
+import { SiMinutemailer } from "react-icons/si";
 import logo from "@/assets/images/logo.png";
 import "@/css/globals.css";
 import Model from "./Model";
@@ -49,6 +50,34 @@ export default function InstitudeHeader() {
 
   return (
     <header className="font-[Proxima] header fixed shadow-sm m-2 rounded tracking-wide top-0 text-lg bg-gradient-to-t from-[#1F419B] to-[#1F419B]">
+      <div className="hidden lg:flex px-[12vw] justify-between items-center text-white bg-slate-800">
+        <div className="flex items-center gap-3">
+
+          <div className="flex items-center gap-2 text-white text-lg">
+            <FaPhone />
+            <span className="text-sm lg:text-base font-semibold">
+              +92 337 777 5930
+            </span>
+          </div>
+
+          <div className="flex items-center gap-2 text-white text-lg">
+            <SiMinutemailer />
+            <span className="text-sm lg:text-base font-semibold">
+              info@digisukool.com
+            </span>
+          </div>
+
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3">
+              <FaFacebook/>
+              <FaInstagram/>
+              <FaLinkedin/>
+          </div>
+          <div className="btn btn-success rounded-0">Hire From Us</div>
+          <div className="btn btn-danger rounded-0">Online Registration</div>
+        </div>
+      </div>
       <Model model={model} setModel={setModel} />
       <section className="flex items-center justify-between gap-4 py-3 px-4 lg:px-10">
         {/* Logo Section */}
@@ -107,18 +136,10 @@ export default function InstitudeHeader() {
           <Link
             href="/"
             className="font-bold text-white bg-gradient-to-r from-red-400 to-yellow-500 px-4 py-1 rounded-lg transition-all duration-300 hover:from-[#fe8c00] hover:to-[#f83600] hover:animate-none"
-            onClick={()=> setModel(true)}
+            onClick={() => setModel(true)}
           >
             Enroll Now
           </Link>
-
-          {/* Phone Number with Icon */}
-          <div className="flex items-center gap-2 text-white text-lg">
-            <FaPhone />
-            <span className="text-sm lg:text-base font-semibold">
-              +92 337 777 5930
-            </span>
-          </div>
         </div>
       </section>
 
