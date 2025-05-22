@@ -1,5 +1,3 @@
-import { SiReact, SiReacthookform } from "react-icons/si";
-
 const Data = () => {
     const data = [
         {
