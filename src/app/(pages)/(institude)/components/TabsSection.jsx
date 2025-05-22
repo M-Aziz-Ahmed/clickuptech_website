@@ -21,7 +21,8 @@ const TabsSection = () => {
     }
 
     return (
-        <div className="tabs-container">
+        <div className="tabs-container bg-[#F1F9FF]">
+            <hr />
             <nav>
                 <div className="flex container flex-wrap gap-4 justify-center">
                     {tabs.map((tab, index) => (
@@ -39,10 +40,10 @@ const TabsSection = () => {
 
             <br />
 
-            <div className="tab-content container">
+            <div className="tab-content container lg:py-[4%]">
                 {tabs[0].show && (
                     <>
-                        <div className="flex gap-5 justify-center items-center flex-wrap my-5">
+                        <div className="flex gap-5 justify-center items-center flex-wrap">
                             <div className="box bg-[#F7F7F7] border-x shadow text-black inline-block">
                                 <Image src={'/web-expert-standard-course.svg'} width={300} height={300} alt="error"></Image>
                                 <div className="h6 fw-bold p-2">Web Expert Standard

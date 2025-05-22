@@ -1,7 +1,7 @@
 import * as motion from "framer-motion/client";
 import Data from "../(pages)/courses/data";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function OurCourses() {
   const { data } = Data()
 
@@ -25,21 +25,21 @@ export default function OurCourses() {
       </motion.div>
 
       {/* Services Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 hover:text  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 hover:text">
         {data.map((card) => (
           <Link href={`${card.link}`} key={card.title} >
             <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
               <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#1F419B] transition-all duration-300 group-hover:scale-[10]"></span>
               <div className="relative z-10 h-[230px] max-w-md">
                 <span className="grid h-20 w-20 place-items-center rounded-full bg-[#d4defa] group-hover:bg-white transition-all duration-300 border-[1px] border-[#1F419B]">
-                  {/* <Image
-                    src={card.icon}
+                  <Image
+                    src={`/assets/icons/${card.icon}`}
                     alt="androidImg"
-                    width={40}
-                    height={40}
+                    width={60}
+                    height={60}
                     className="rounded-full"
-                  /> */}
-                  {card.icon}
+                  />
+                  {/* {card.icon} */}
                 </span>
 
                 <div className="mt-3 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">

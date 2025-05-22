@@ -1,7 +1,9 @@
+import { SiReact, SiReacthookform } from "react-icons/si";
+
 const Data = () => {
     const data = [
         {
-            icon: "🌐",
+            icon: "software.png",
             title: "Web Development",
             description: "Creating responsive and interactive websites.",
             link: 'courses/webdev',
@@ -10,7 +12,7 @@ const Data = () => {
             ]
         },
         {
-            icon: "🔍",
+            icon: 'mern-removebg-preview.png',
             title: "Full Stack Development",
             description: "Improving your website’s visibility on search engines.",
             link: 'courses/fullstack',
@@ -22,7 +24,7 @@ const Data = () => {
             ]
         },
         {
-            icon: "🎨",
+            icon: "mern-removebg-preview.png",
             title: "Mearn Stack",
             description: "Designing eye-catching graphics and visual content.",
             link: 'courses/mernstack',
@@ -30,39 +32,39 @@ const Data = () => {
 
         },
         {
-            icon: "📈",
+            icon: "software.png",
             title: "Mean Stack",
             description: "Strategies to enhance your online presence and reach.",
             link: 'courses/meanstack'
         },
 
         {
-            icon: "🌐",
+            icon: "icons8-flutter-480.png",
             title: "Google Flutter Development",
             description: "Creating responsive and interactive websites.",
             link: 'courses/flutter'
         },
         {
-            icon: "🔍",
+            icon: "app-development.png",
             title: "Android Development",
             description: "Improving your website’s visibility on search engines.",
             link: 'courses/android'
         },
         {
-            icon: "🎨",
+            icon: "app-development.png",
             title: "React Native Development",
             description: "Designing eye-catching graphics and visual content.",
             link: 'courses/reactnative'
         },
         {
-            icon: "📈",
+            icon: "social-media.png",
             title: "Digital Marketing",
             description: "Strategies to enhance your online presence and reach.",
             link: 'courses/digitalmarketing'
         },
 
         {
-            icon: "🌐",
+            icon: "graphic-design.png",
             title: "Graphic Design",
             description: "Creating responsive and interactive websites.",
             link: 'courses/graphicdesign',
@@ -96,13 +98,13 @@ const Data = () => {
             ]
         },
         {
-            icon: "🔍",
+            icon: "seo.png",
             title: "Search Engine Optimization",
             description: "Improving your website’s visibility on search engines.",
             link: 'courses/seo'
         },
         {
-            icon: "🎨",
+            icon: "ui (1).png",
             title: "Complete UI/UX",
             description: "Designing eye-catching graphics and visual content.",
             link: 'courses/UIUX'
